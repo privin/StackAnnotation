@@ -138,7 +138,7 @@ public class MyStringStackTest extends TestCase {
 	}
 	
 	public static junit.framework.Test suite() {
-		TestSuite suite = new TestSuite("Test for default package");
+		TestSuite suite = new TestSuite("Test for default package---Change");
 		System.out.println ("Test for default package");
 		//$JUnit-BEGIN$
 		suite.addTestSuite(MyStringStackTest.class);
